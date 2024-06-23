@@ -1,10 +1,10 @@
-import RestaurantCard from "../components/RestaurantCard";
+import RestaurantCard from "../components/RestaurantCard.js";
 import { useState } from "react";
-import Shimmer from "../components/Shimmer"; 
+import Shimmer from "../components/Shimmer.js"; 
 import { Link } from "react-router-dom";
-import useResData from "../hooks/useResData"; 
-import useOnline from "../hooks/useOnline"; 
-import UserOffline from "../components/UserOffline";
+import useResData from "../hooks/useResData.js"; 
+import useOnline from "../hooks/useOnline.js"; 
+import UserOffline from "../components/UserOffline.js";
 
 
 

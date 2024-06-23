@@ -1,8 +1,8 @@
 import Logo from "../assets/logo.png";
 import { Link , useNavigate } from "react-router-dom"; 
-import useOnline from "../hooks/useOnline";
-import useAuth from "../hooks/useAuth";
-import useLocalStorage from "../hooks/useLocalStorage";
+import useOnline from "../hooks/useOnline.js";
+import useAuth from "../hooks/useAuth.js";
+import useLocalStorage from "../hooks/useLocalStorage.js";
 import { useEffect } from "react";
 
 

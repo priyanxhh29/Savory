@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom"; 
-import { MenuShimmer } from "../components/Shimmer";
-import useResMenuData from "../hooks/useResMenuData"; 
-import useOnline from "../hooks/useOnline"; 
-import UserOffline from "../components/UserOffline";
+import { MenuShimmer } from "../components/Shimmer.js";
+import useResMenuData from "../hooks/useResMenuData.js"; 
+import useOnline from "../hooks/useOnline.js"; 
+import UserOffline from "../components/UserOffline.js";
 
 const RestaurantMenu = () => {
   const { resId } = useParams(); 
