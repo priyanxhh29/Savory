@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import Header from "./src/components/Header.js";
 import Body from "./src/components/Body.js";
 import Footer from "./src/Components/Footer.js";
-import About from "./src/Components/About.js";
-import Error from "./src/Components/Error.js";
-import Contact from "./src/Components/Contact.js";
+import About from "./src/components/About.js";
+import Error from "./src/components/Error.js";
+import Contact from "./src/components/Contact.js";
 import Login from "./src/components/Login.js";
 import RestaurantMenu from "./src/components/RestaurantMenu.js"
-import Profile from "./src/Components/ProfileClass.js";
+import Profile from "./src/components/ProfileClass.js";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 
